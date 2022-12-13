@@ -62,3 +62,4 @@ function start(file) {
 }
 
 start('main.js')
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080) //sup run replit 24 jam
